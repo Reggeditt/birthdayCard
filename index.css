@@ -1,7 +1,7 @@
-body{
-    margin: 0;
-    padding: 0;
-    /* background-color: rgba(21, 3, 38, 0.792); */
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background: url("http://digital.bnint.com/filelib/s9/photos/white_wood_4500x3000_lo_res.jpg");
 }
 header{
     background: linear-gradient(
@@ -50,4 +50,15 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(rgba(247, 78, 40,0.8),rgba(255, 255, 255, 0.4));
+}
+
+.msg{
+    color:rgba(255, 255, 255, 0.85);
+    font-size: 22px;
+    word-wrap: break-word;
+    width: 750px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
 }
